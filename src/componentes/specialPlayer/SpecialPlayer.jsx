@@ -6,7 +6,7 @@ function SpecialPlayer() {
   return (
     <div className="pt-14 pb-14 pl-7 pr-7">
       <Title title=" افضل اللاعبين لدينا " />
-      <div className="players pt-5 flex flex-wrap gap-10 justify-between">
+      <div className="players pt-5 flex flex-wrap gap-10 justify-between md:justify-around">
         <div className="player max-w-[600px] flex bg-[#410b0b] text-whight gap-4 flex-col sm:flex-col md:flex-row">
           <img
             className="md:max-w-[350px] sm:w-full w-full"
