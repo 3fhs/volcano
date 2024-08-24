@@ -1,0 +1,39 @@
+.slider-container {
+  width: 100%;
+  margin: auto;
+  padding: 20px; /* يمكن تعديل هذا لتغيير المسافة حول الكاروسيل */
+}
+
+.slick-slide {
+  padding: 10px; /* يمكن تعديل هذا لتغيير المسافة بين الشرائح */
+}
+
+.slick-dots {
+  display: none;
+  position: relative;
+  bottom: 10px; /* تغيير موقع النقاط في أسفل الكاروسيل */
+}
+
+.slick-dots li button:before {
+  color: #000; /* تغيير لون النقاط */
+}
+
+.slick-prev,
+.slick-next {
+  display: none;
+}
+
+.slick-prev {
+  left: 0; /* تغيير موقع السهم الأيسر */
+}
+
+.slick-next {
+  right: 0; /* تغيير موقع السهم الأيمن */
+}
+
+.slick-slide img {
+  width: 100%;
+  height: 200px; /* تغيير ارتفاع الصور */
+  border-radius: 10px; /* تغيير زاوية حواف الصور */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* إضافة ظل للصور */
+}

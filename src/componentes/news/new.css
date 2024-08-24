@@ -1,0 +1,15 @@
+.cart {
+  flex-direction: row;
+  justify-content: center;
+}
+.img-in-cart-new {
+  width: 200px;
+}
+@media (max-width: 768px) {
+  .cart {
+    flex-direction: column;
+  }
+  .img-in-cart-new {
+    width: 100%;
+  }
+}

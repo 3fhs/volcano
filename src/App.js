@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import AllPlayers from "./componentes/allPlayers/AllPlayers.jsx";
+import CarouselClubLogo from "./componentes/carousel/CarouselClubLogo";
+import CarouselHead from "./componentes/carouselhead/CarouselHead";
+import Footer from "./componentes/footer/Footer.jsx";
+import Header from "./componentes/header/Header";
+import News from "./componentes/news/News.jsx";
+import SpecialPlayer from "./componentes/specialPlayer/SpecialPlayer.jsx";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <CarouselHead />
+      <CarouselClubLogo />
+      <News />
+      <SpecialPlayer />
+      <AllPlayers />
+      <Footer />
     </div>
   );
 }

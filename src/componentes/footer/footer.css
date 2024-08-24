@@ -1,0 +1,22 @@
+.footer {
+  width: 100%;
+  background-color: #910e00;
+  position: relative;
+  height: 110px;
+}
+.footer-slice {
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 20px;
+  top: -20%;
+  right: 50%;
+  transform: translateX(50%);
+  position: absolute;
+  border-radius: 10px;
+  width: 80%;
+}

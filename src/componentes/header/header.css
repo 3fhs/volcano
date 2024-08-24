@@ -1,0 +1,98 @@
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: darkred;
+}
+.head-nav {
+  width: 90%;
+  height: 80px;
+  background-color: brown;
+  border-radius: 0 0 50% 50%;
+  position: fixed;
+  z-index: 999;
+  right: 50%;
+  transform: translateX(50%);
+}
+.nav-logo {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+  border-radius: 50%;
+  border: 4px solid burlywood;
+  overflow: hidden;
+}
+.volcan {
+  width: 100%;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+.nav-logo h1 {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #f2f1c1;
+  font-size: 18px;
+  font-weight: bold;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  margin: 0;
+  padding: 0 30px;
+}
+.nav-links .nav-link {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  padding: 5px;
+  transition: 0.3s;
+}
+.nav-links .nav-link:hover {
+  color: gold;
+  border-bottom: 2px solid gold;
+}
+.bi-list,
+.bi-x-lg {
+  display: none;
+}
+@media (max-width: 768px) {
+  .bi-list,
+  .bi-x-lg {
+    display: block;
+    position: absolute;
+    right: 20px;
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+  }
+  .nav-links {
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 50%;
+    transform: translateX(50%);
+    clip-path: polygon(20% 0%, 80% 0%, 80% 0, 20% 0);
+    transition: all 1s ease;
+    padding-top: 60px;
+    background-color: darkred;
+    z-index: -1;
+    min-width: 200px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 0 50% 50%;
+    overflow: hidden;
+  }
+}
