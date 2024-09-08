@@ -52,6 +52,10 @@ export const players = [
       title: " لاعب وسط مدافع",
     },
     year: 2005,
+    skills: [
+      { name: "القدرة على التسديد", percentage: 80 },
+      { name: "التمرير", percentage: 70 },
+    ],
   },
   {
     name: " طارق حامد ",
@@ -63,6 +67,10 @@ export const players = [
       title: " لاعب وسط مدافع",
     },
     year: 2005,
+    skills: [
+      { name: "القدرة على التسديد", percentage: 80 },
+      { name: "التمرير", percentage: 70 },
+    ],
   },
   {
     name: " طارق حامد ",
@@ -74,6 +82,10 @@ export const players = [
       title: " لاعب وسط مدافع",
     },
     year: 2005,
+    skills: [
+      { name: "القدرة على التسديد", percentage: 80 },
+      { name: "التمرير", percentage: 70 },
+    ],
   },
   {
     name: " طارق حامد ",
@@ -85,6 +97,10 @@ export const players = [
       title: " لاعب وسط مدافع",
     },
     year: 2005,
+    skills: [
+      { name: "القدرة على التسديد", percentage: 80 },
+      { name: "التمرير", percentage: 70 },
+    ],
   },
   {
     name: " طارق حامد ",
@@ -96,6 +112,10 @@ export const players = [
       title: " لاعب وسط مدافع",
     },
     year: 2010,
+    skills: [
+      { name: "القدرة على التسديد", percentage: 80 },
+      { name: "التمرير", percentage: 70 },
+    ],
   },
   {
     name: " طارق حامد ",
@@ -107,5 +127,9 @@ export const players = [
       title: " لاعب وسط مدافع",
     },
     year: 2010,
+    skills: [
+      { name: "القدرة على التسديد", percentage: 80 },
+      { name: "التمرير", percentage: 70 },
+    ],
   },
 ];
