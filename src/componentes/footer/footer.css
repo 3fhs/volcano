@@ -2,7 +2,6 @@
   width: 100%;
   background-color: #910e00;
   position: relative;
-  height: 110px;
 }
 .footer-slice {
   background-color: brown;
@@ -13,10 +12,63 @@
   font-weight: bold;
   text-transform: capitalize;
   padding: 20px;
-  top: -20%;
+  top: -10%;
   right: 50%;
   transform: translateX(50%);
   position: absolute;
   border-radius: 10px;
   width: 80%;
+  text-align: center;
+}
+.footer-cool {
+  margin: 40px 0px;
+  width: 80%;
+  position: relative;
+  right: 50%;
+  transform: translateX(50%);
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+}
+.cool {
+  text-align: center;
+  padding: 10px;
+}
+.cool h3 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 0;
+  color: white;
+}
+.cool .cool-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 5px 0 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+.cool-sub {
+  text-align: center;
+  padding: 10px;
+  width: 50%;
+}
+.cool-sub h3 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 0;
+  color: white;
+}
+.footer-links {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+.footer-link {
+  margin-bottom: 20px;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 16px;
+  color: snow;
 }

@@ -18,7 +18,7 @@ function CarouselHead() {
               ❯
             </a>
           </div>
-          <div className="info absolute bg-[#8d0500] bottom-0 right-2/4 translate-x-1/2 w-full min-h-24 text-center p-2 rounded-xl">
+          <div className="info absolute bg-[#8d0500cf] bottom-5 w-[80%] right-2/4 translate-x-1/2 min-h-24 text-center p-2 rounded-xl">
             <h1 className="text-xl font-bold text-white mb-3">
               {" "}
               نصائح من كابتن ابراهيم للفريق{" "}
@@ -39,7 +39,7 @@ function CarouselHead() {
               ❯
             </a>
           </div>
-          <div className="info absolute bg-[#8d0500] bottom-0 right-2/4 translate-x-1/2 w-full min-h-24 text-center p-2 rounded-xl">
+          <div className="info absolute bg-[#8d0500cf] bottom-5 w-[80%] right-2/4 translate-x-1/2 min-h-24 text-center p-2 rounded-xl">
             <h1 className="text-xl font-bold text-white mb-3">
               {" "}
               شهادة تقدير للاكاديمية{" "}
@@ -60,7 +60,7 @@ function CarouselHead() {
               ❯
             </a>
           </div>
-          <div className="info absolute bg-[#8d0500] bottom-0 right-2/4 translate-x-1/2 w-full min-h-24 text-center p-2 rounded-xl">
+          <div className="info absolute bg-[#8d0500cf] bottom-5 w-[80%] right-2/4 translate-x-1/2 min-h-24 text-center p-2 rounded-xl">
             <h1 className="text-xl font-bold text-white mb-3">
               {" "}
               الابطال حققوا الحلم{" "}
@@ -81,7 +81,7 @@ function CarouselHead() {
               ❯
             </a>
           </div>
-          <div className="info absolute bg-[#8d0500] bottom-0 right-2/4 translate-x-1/2 w-full min-h-24 text-center p-2 rounded-xl">
+          <div className="info absolute bg-[#8d0500cf] bottom-5 w-[80%] right-2/4 translate-x-1/2 min-h-24 text-center p-2 rounded-xl">
             <h1 className="text-xl font-bold text-white mb-3">
               {" "}
               صورة تذكارية{" "}

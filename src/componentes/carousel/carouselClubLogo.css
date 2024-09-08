@@ -6,6 +6,7 @@
 
 .slick-slide {
   padding: 10px; /* يمكن تعديل هذا لتغيير المسافة بين الشرائح */
+  display: none;
 }
 
 .slick-dots {
@@ -25,6 +26,7 @@
 
 .slick-prev {
   left: 0; /* تغيير موقع السهم الأيسر */
+  display: none;
 }
 
 .slick-next {

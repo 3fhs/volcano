@@ -38,8 +38,11 @@ export const players = [
     },
     year: 2005,
     skills: [
-      { name: "القدرة على التسديد", percentage: 80 },
+      { name: "القدرة على الاستخلاص", percentage: 80 },
       { name: "التمرير", percentage: 70 },
+      { name: "اللعب تحت ضغط", percentage: 80 },
+      { name: "قوة التسديد", percentage: 75 },
+      { name: "انهاء الهجمات", percentage: 40 },
     ],
   },
   {
@@ -53,8 +56,11 @@ export const players = [
     },
     year: 2005,
     skills: [
-      { name: "القدرة على التسديد", percentage: 80 },
+      { name: "القدرة على الاستخلاص", percentage: 80 },
       { name: "التمرير", percentage: 70 },
+      { name: "اللعب تحت ضغط", percentage: 80 },
+      { name: "قوة التسديد", percentage: 75 },
+      { name: "انهاء الهجمات", percentage: 40 },
     ],
   },
   {
@@ -68,8 +74,11 @@ export const players = [
     },
     year: 2005,
     skills: [
-      { name: "القدرة على التسديد", percentage: 80 },
+      { name: "القدرة على الاستخلاص", percentage: 80 },
       { name: "التمرير", percentage: 70 },
+      { name: "اللعب تحت ضغط", percentage: 80 },
+      { name: "قوة التسديد", percentage: 75 },
+      { name: "انهاء الهجمات", percentage: 40 },
     ],
   },
   {
@@ -83,8 +92,11 @@ export const players = [
     },
     year: 2005,
     skills: [
-      { name: "القدرة على التسديد", percentage: 80 },
+      { name: "القدرة على الاستخلاص", percentage: 80 },
       { name: "التمرير", percentage: 70 },
+      { name: "اللعب تحت ضغط", percentage: 80 },
+      { name: "قوة التسديد", percentage: 75 },
+      { name: "انهاء الهجمات", percentage: 40 },
     ],
   },
   {
@@ -98,8 +110,11 @@ export const players = [
     },
     year: 2005,
     skills: [
-      { name: "القدرة على التسديد", percentage: 80 },
+      { name: "القدرة على الاستخلاص", percentage: 80 },
       { name: "التمرير", percentage: 70 },
+      { name: "اللعب تحت ضغط", percentage: 80 },
+      { name: "قوة التسديد", percentage: 75 },
+      { name: "انهاء الهجمات", percentage: 40 },
     ],
   },
   {
@@ -113,8 +128,11 @@ export const players = [
     },
     year: 2010,
     skills: [
-      { name: "القدرة على التسديد", percentage: 80 },
+      { name: "القدرة على الاستخلاص", percentage: 80 },
       { name: "التمرير", percentage: 70 },
+      { name: "اللعب تحت ضغط", percentage: 80 },
+      { name: "قوة التسديد", percentage: 75 },
+      { name: "انهاء الهجمات", percentage: 40 },
     ],
   },
   {
@@ -128,8 +146,11 @@ export const players = [
     },
     year: 2010,
     skills: [
-      { name: "القدرة على التسديد", percentage: 80 },
+      { name: "القدرة على الاستخلاص", percentage: 80 },
       { name: "التمرير", percentage: 70 },
+      { name: "اللعب تحت ضغط", percentage: 80 },
+      { name: "قوة التسديد", percentage: 75 },
+      { name: "انهاء الهجمات", percentage: 40 },
     ],
   },
 ];

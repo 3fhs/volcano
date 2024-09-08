@@ -15,7 +15,7 @@ function CarouselClubLogo() {
     speed: 1000,
     autoplaySpeed: 3000,
     cssEase: "ease-in-out",
-    arrows: true,
+    arrows: false,
     responsive: [
       {
         breakpoint: 1024,
