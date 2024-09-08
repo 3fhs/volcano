@@ -36,6 +36,11 @@ export const players = [
       start: "5",
       title: " لاعب وسط مدافع",
     },
+    year: 2005,
+    skills: [
+      { name: "القدرة على التسديد", percentage: 80 },
+      { name: "التمرير", percentage: 70 },
+    ],
   },
   {
     name: " طارق حامد ",
@@ -46,6 +51,7 @@ export const players = [
       start: "5",
       title: " لاعب وسط مدافع",
     },
+    year: 2005,
   },
   {
     name: " طارق حامد ",
@@ -56,6 +62,7 @@ export const players = [
       start: "5",
       title: " لاعب وسط مدافع",
     },
+    year: 2005,
   },
   {
     name: " طارق حامد ",
@@ -66,6 +73,7 @@ export const players = [
       start: "5",
       title: " لاعب وسط مدافع",
     },
+    year: 2005,
   },
   {
     name: " طارق حامد ",
@@ -76,6 +84,7 @@ export const players = [
       start: "5",
       title: " لاعب وسط مدافع",
     },
+    year: 2005,
   },
   {
     name: " طارق حامد ",
@@ -86,6 +95,7 @@ export const players = [
       start: "5",
       title: " لاعب وسط مدافع",
     },
+    year: 2010,
   },
   {
     name: " طارق حامد ",
@@ -96,5 +106,6 @@ export const players = [
       start: "5",
       title: " لاعب وسط مدافع",
     },
+    year: 2010,
   },
 ];

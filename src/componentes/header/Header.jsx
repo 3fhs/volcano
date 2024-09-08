@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./header.css";
-import volcano from "../../image/volcano.jpg";
+import volcano from "../../image/football_logo_volcanoes.png";
 
 function Header() {
   const [openLink, setOpenLink] = useState(false);
@@ -10,7 +10,6 @@ function Header() {
       <div className="head-nav">
         <div className="nav-logo">
           <img className="volcan" src={volcano} alt="volcano" />
-          <h1> البراكين </h1>
         </div>
         <div
           className="nav-links"
@@ -29,13 +28,21 @@ function Header() {
             </li>
             <li onClick={() => setOpenLink(false)} className="nav-link">
               {" "}
-              انشطتنا{" "}
+              اخبارنا{" "}
+            </li>
+            <li onClick={() => setOpenLink(false)} className="nav-link">
+              {" "}
+              اللاعبين{" "}
             </li>
           </ul>
-          <ul className="flex items-center gap-5 sm:flex-col md:flex-row">
+          <ul className="flex items-center gap-5 pt-2 md:pt-0 flex-col sm:flex-col md:flex-row">
             <li onClick={() => setOpenLink(false)} className="nav-link">
               {" "}
               تسجيل الدخول{" "}
+            </li>
+            <li onClick={() => setOpenLink(false)} className="nav-link">
+              {" "}
+              الخروج{" "}
             </li>
           </ul>
         </div>
