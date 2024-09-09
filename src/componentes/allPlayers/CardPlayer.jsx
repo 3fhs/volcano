@@ -3,7 +3,7 @@ import "./allplayers.css";
 
 function CardPlayer({ player }) {
   return (
-    <div className="card">
+    <div className="card rounded-lg overflow-hidden">
       <div className="card-inner">
         <div className="card-front">
           <div className="player-info p-2 flex flex-col items-center text-white relative">

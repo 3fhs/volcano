@@ -26,6 +26,44 @@ export const data = [
     image: pyramides,
   },
 ];
+export const special = [
+  {
+    name: " طارق حامد ",
+    image: tareq,
+    details:
+      "  يمتاز بالعب برجولة فى وسط الملعب يستطيع ايصال الكرة من الوسط الى الهجوم بطريقة ممتازة متحرك ",
+    evaluation: {
+      start: "5",
+      title: " لاعب وسط مدافع",
+    },
+    year: 2005,
+    skills: [
+      { name: "القدرة على الاستخلاص", percentage: 80 },
+      { name: "التمرير", percentage: 70 },
+      { name: "اللعب تحت ضغط", percentage: 80 },
+      { name: "قوة التسديد", percentage: 75 },
+      { name: "انهاء الهجمات", percentage: 40 },
+    ],
+  },
+  {
+    name: " طارق حامد ",
+    image: tareq,
+    details:
+      "  يمتاز بالعب برجولة فى وسط الملعب يستطيع ايصال الكرة من الوسط الى الهجوم بطريقة ممتازة متحرك ",
+    evaluation: {
+      start: "5",
+      title: " لاعب وسط مدافع",
+    },
+    year: 2005,
+    skills: [
+      { name: "القدرة على الاستخلاص", percentage: 80 },
+      { name: "التمرير", percentage: 70 },
+      { name: "اللعب تحت ضغط", percentage: 80 },
+      { name: "قوة التسديد", percentage: 75 },
+      { name: "انهاء الهجمات", percentage: 40 },
+    ],
+  },
+];
 export const players = [
   {
     name: " طارق حامد ",

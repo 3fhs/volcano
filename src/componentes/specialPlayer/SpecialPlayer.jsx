@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "../titleInHead/Title";
-import { players } from "../../Data";
+import { special } from "../../Data";
 import ProgressBar from "@ramonak/react-progress-bar";
 import "./SpecialPlayer.css";
 
@@ -9,14 +9,14 @@ function SpecialPlayer() {
     <div className="pt-14 pb-14 pl-7 pr-7">
       <Title title=" افضل اللاعبين لدينا " />
       <div className="players items-start pt-5 flex flex-wrap gap-10 justify-around">
-        {players.map((item, index) => (
+        {special.map((item, index) => (
           <div
             key={index}
-            className="player rounded-xl overflow-hidden max-w-[600px] flex bg-[#410b0b] text-whight p-2 flex-col sm:flex-col md:flex-row "
+            className="player relative pb-14 pt-3 rounded-xl overflow-hidden w-full md:max-w-[600px] flex bg-[#410b0b] text-whight px-3 flex-col sm:flex-col md:flex-row "
           >
             <div className="img-name text-center ">
               <img
-                className="md:max-w-[350px] w-[200px] h-[300px]"
+                className="md:max-w-[350px] sm:w-full rounded-md"
                 src={item.image}
                 alt="player"
               />
@@ -33,7 +33,7 @@ function SpecialPlayer() {
                 </div>
               </div>
             </div>
-            <div className="player-info pb-14 p-2 flex flex-col items-center text-white relative min-w-[165px]">
+            <div className="player-info p-2 flex flex-col items-center text-white w-full md:w-2/4 min-w-[165px]">
               <h2 className="text-center pb-5 border-b-2 border-b-[#ffd700]">
                 {" "}
                 المهارات{" "}
@@ -52,11 +52,11 @@ function SpecialPlayer() {
                   </div>
                 ))}
               </div>
-              <button className="absolute bottom-5 font-bold text-xl text-[gold] cursor-pointer">
-                {" "}
-                المزيد عن اللاعب{" "}
-              </button>
             </div>
+            <button className="absolute bottom-5 font-bold text-xl text-[gold] cursor-pointer right-2/4 translate-x-1/2">
+              {" "}
+              المزيد عن اللاعب{" "}
+            </button>
           </div>
         ))}
       </div>

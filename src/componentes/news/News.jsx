@@ -8,7 +8,7 @@ function News() {
     <div className="pt-14 pb-14 pr-7 pl-7 relative ">
       <Title title=" اخر الاخبار و المستجدات " />
       <div className="pt-5 flex items-center justify-start flex-wrap gap-5">
-        <div className="cart flex bg-[brown] text-white gap-2 overflow-hidden rounded-md w-full">
+        <div className="cart flex bg-[#410b0b] text-white gap-2 overflow-hidden rounded-md w-full">
           <img className="img-in-cart-new" src={mwhbtk} alt="news" />
           <div className="cart-info w-full p-3 relative">
             <h3 className="font-bold text-xl pb-2">
@@ -26,7 +26,7 @@ function News() {
             </button>
           </div>
         </div>
-        <div className="cart flex bg-[brown] text-white gap-2 overflow-hidden rounded-md w-full">
+        <div className="cart flex bg-[#410b0b] text-white gap-2 overflow-hidden rounded-md w-full">
           <img className="img-in-cart-new" src={mwhbtk} alt="news" />
           <div className="cart-info w-full p-3 relative">
             <h3 className="font-bold text-xl pb-2">
@@ -44,7 +44,7 @@ function News() {
             </button>
           </div>
         </div>
-        <div className="cart flex bg-[brown] text-white gap-2 overflow-hidden rounded-md w-full">
+        <div className="cart flex bg-[#410b0b] text-white gap-2 overflow-hidden rounded-md w-full">
           <img className="img-in-cart-new" src={mwhbtk} alt="news" />
           <div className="cart-info w-full p-3 relative">
             <h3 className="font-bold text-xl pb-2">
@@ -62,7 +62,7 @@ function News() {
             </button>
           </div>
         </div>
-        <div className="cart flex bg-[brown] text-white gap-2 overflow-hidden rounded-md w-full">
+        <div className="cart flex bg-[#410b0b] text-white gap-2 overflow-hidden rounded-md w-full">
           <img className="img-in-cart-new" src={mwhbtk} alt="news" />
           <div className="cart-info w-full p-3 relative">
             <h3 className="font-bold text-xl pb-2">
@@ -81,7 +81,7 @@ function News() {
           </div>
         </div>
       </div>
-      <button className="flex items-center w-1/4 h-8 p-8 font-bold justify-center text-xl rounded-md text-white bg-[#410b0b] transition hover:bg-[brown] mt-5 absolute right-2/4 translate-x-2/4">
+      <button className="flex items-center w-1/2 h-8 p-8 font-bold justify-center text-xl rounded-md text-white bg-[#410b0b] transition hover:bg-[brown] mt-5 absolute right-2/4 translate-x-2/4">
         {" "}
         لمزيد من الاخبار{" "}
       </button>

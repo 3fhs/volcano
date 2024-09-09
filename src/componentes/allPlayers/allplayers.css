@@ -58,3 +58,6 @@
   left: 10px !important;
   z-index: 999;
 }
+.slick-slider {
+  border: none;
+}
