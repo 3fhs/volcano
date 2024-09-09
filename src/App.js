@@ -1,22 +1,19 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import AllPlayers from "./componentes/allPlayers/AllPlayers.jsx";
-import CarouselClubLogo from "./componentes/carousel/CarouselClubLogo";
-import CarouselHead from "./componentes/carouselhead/CarouselHead";
-import Footer from "./componentes/footer/Footer.jsx";
-import Header from "./componentes/header/Header";
-import News from "./componentes/news/News.jsx";
-import SpecialPlayer from "./componentes/specialPlayer/SpecialPlayer.jsx";
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
+import Players from "./pages/players/Players";
+import AllNews from "./pages/news/AllNews";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <CarouselHead />
-      <CarouselClubLogo />
-      <News />
-      <SpecialPlayer />
-      <AllPlayers />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/news" element={<AllNews />} />
+        <Route path="/players" element={<Players />} />
+      </Routes>
     </div>
   );
 }

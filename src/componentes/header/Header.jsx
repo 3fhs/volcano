@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./header.css";
 import volcano from "../../image/football_logo_volcanoes.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [openLink, setOpenLink] = useState(false);
@@ -18,22 +19,38 @@ function Header() {
           }}
         >
           <ul className="flex items-center flex-col gap-5 sm:flex-col md:flex-row">
-            <li onClick={() => setOpenLink(false)} className="nav-link">
+            <Link
+              to="/"
+              onClick={() => setOpenLink(false)}
+              className="nav-link"
+            >
               {" "}
               الرئيسية{" "}
-            </li>
-            <li onClick={() => setOpenLink(false)} className="nav-link">
+            </Link>
+            <Link
+              to="/about"
+              onClick={() => setOpenLink(false)}
+              className="nav-link"
+            >
               {" "}
               من نحن{" "}
-            </li>
-            <li onClick={() => setOpenLink(false)} className="nav-link">
+            </Link>
+            <Link
+              to="/news"
+              onClick={() => setOpenLink(false)}
+              className="nav-link"
+            >
               {" "}
               اخبارنا{" "}
-            </li>
-            <li onClick={() => setOpenLink(false)} className="nav-link">
+            </Link>
+            <Link
+              to="/players"
+              onClick={() => setOpenLink(false)}
+              className="nav-link"
+            >
               {" "}
               اللاعبين{" "}
-            </li>
+            </Link>
           </ul>
           <ul className="flex items-center gap-5 pt-2 md:pt-0 flex-col sm:flex-col md:flex-row">
             <li onClick={() => setOpenLink(false)} className="nav-link">
