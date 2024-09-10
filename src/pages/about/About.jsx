@@ -3,6 +3,7 @@ import Header from "../../componentes/header/Header";
 import Footer from "../../componentes/footer/Footer";
 import logo from "../../image/football_logo_volcanoes.png";
 import mwhptk from "../../image/mwhbtk2.jpg";
+import boss from "../../image/boss-game.jpg";
 import "./about.css";
 
 function About() {
@@ -77,6 +78,17 @@ function About() {
               </li>
             </ul>
           </div>
+          <div className="boss relative mb-[50px] overflow-hidden rounded-[20px]">
+            <img className="w-full rounded-[20px]" src={boss} alt="boss"/>
+            <div className="boss-info absolute bottom-0 w-full bg-[#ededed8a] p-[20px] right-2/4 rounded-[20px] translate-x-2/4">
+            <h1> مدير الاكاديمية ك / ابراهيم </h1>
+            <p> تعمل الاكاديمية على اعداد و تاهيل اللاعبين من سن صغير للدخول فى
+                عالم كرة القدم . كما تعمل الاكاديمية على تسويق اللاعبين فى جميع
+                الاندية و التعاون مع جميع الاندية لبناء جيل قوى بنديا و ممارس
+                للعبة كرة القدم . 
+            </p>
+            </div>
+          </div>
           <div className="contact bg-[brown] p-8 rounded-lg shadow-lg max-w-md mx-auto">
             <h3 className="text-2xl font-bold text-center mb-6 text-white">
               للتواصل معنا
@@ -85,11 +97,11 @@ function About() {
               <input
                 type="email"
                 placeholder="write your email"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[orange]"
               />
               <textarea
                 placeholder="write your message"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 h-32"
+                className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[orange] h-32"
               ></textarea>
               <button
                 type="submit"
